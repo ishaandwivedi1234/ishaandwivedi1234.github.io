@@ -1,0 +1,48 @@
+#carouselExampleSlidesOnly {
+  z-index: 0;
+  position: relative;
+  margin-bottom: 30%;
+}
+#overlay {
+  z-index: 1;
+  position: absolute;
+  /* background-color: rebeccapurple;
+  color: black; */
+  width: 100%;
+
+  font-size: large;
+  height: 100%;
+  opacity: 1;
+}
+.homeText {
+  margin-left: 15%;
+  margin-top: 10%;
+  font-size: larger;
+  color: #565051;
+}
+#searchField {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20;
+}
+.search-btn {
+  border: none;
+  border-radius: 30;
+  padding: 10px;
+}
+.search-bar {
+  margin-left: 15%;
+  padding-top: 6%;
+}
+
+@media screen and (max-width: 320px) {
+  body or .homeText element {
+    font: large;
+  }
+}
+@media screen and (max-width: 1204px) {
+  body or .homeText element {
+    font: xx-large;
+  }
+}
